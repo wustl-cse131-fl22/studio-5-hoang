@@ -1,5 +1,7 @@
 package studio5;
 
+import java.lang.reflect.Array;
+
 import edu.princeton.cs.introcs.StdDraw;
 
 public class Methods {
@@ -75,7 +77,10 @@ public class Methods {
 	public static int arraySum(int[] values) {
 		int sum = 0;
 		// FIXME: Compute the sum of the values in an array
-		
+
+		for (int i = 0; i < values.length; i++) {
+			sum += values[i]; 
+		}
 		return sum;
 	}
 
@@ -89,7 +94,7 @@ public class Methods {
 	public static int[] filledArray(int length, int value) {
 		int[] values = null; // FIXME: Create an array of the appropriate size
 		// TODO: Finish this method
-
+		
 		
 
 		return values;
